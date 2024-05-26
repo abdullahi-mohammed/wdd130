@@ -150,6 +150,10 @@ a {
     cursor: pointer;
 }
 
+.map {
+    border: 0;
+}
+
 main figure img {
     height: auto;
     width: 200px;
