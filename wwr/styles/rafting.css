@@ -136,6 +136,35 @@ a {
     list-style: none;
 }
 
+.contact-form button {
+    text-align: center;
+    padding: 5px 100px;
+    margin: 0 auto;
+    background-color: var(--nav-background-color);
+    border: none;
+    color: black;
+}
+
+.contact-form button:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+
+main figure img {
+    height: auto;
+    width: 200px;
+}
+
+main .employee {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main h2 {
+    margin-top: 40px;
+}
+
 footer {
     display: flex;
     margin: 0 auto;
