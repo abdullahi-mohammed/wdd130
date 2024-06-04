@@ -176,3 +176,53 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
+.trip {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.trip button {
+    background-color: var(--primary-color);
+    padding: 10px 40px;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.trips button:hover {
+    background-color: var(--secondary-color);
+}
+
+hr {
+    border-top: 1px solid grey;
+    border-bottom: none;
+    margin: 50px 0;
+}
+
+.trip>.catalogue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.catalogue>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.catalogue>div:last-child {
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.catalogue img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
