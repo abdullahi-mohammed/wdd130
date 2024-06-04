@@ -192,7 +192,7 @@ footer {
     cursor: pointer;
 }
 
-.trips button:hover {
+.trip button:hover {
     background-color: var(--secondary-color);
 }
 
@@ -230,6 +230,15 @@ hr {
 
 /* -------HOME-------------------------- */
 
+.home>h1 {
+    background-image: url(../images/rafthero.webp);
+    text-align: center;
+    object-fit: cover;
+    padding: 90px 0;
+    background-position: center;
+    filter: blur(.3px);
+    color: white;
+}
 
 .home form {
     display: flex;
