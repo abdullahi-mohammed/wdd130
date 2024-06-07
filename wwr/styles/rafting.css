@@ -211,13 +211,10 @@ hr {
 }
 
 .trips-table {
-    column-gap: 10px;
-}
-
-
-.trips-table {
     border-collapse: collapse;
     width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
 }
 
 .trips-table td,
