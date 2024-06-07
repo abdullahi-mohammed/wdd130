@@ -210,6 +210,38 @@ hr {
     gap: 20px;
 }
 
+.trips-table {
+    column-gap: 10px;
+}
+
+
+.trips-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.trips-table td,
+.trips-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.trips-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.trips-table tr:hover {
+    background-color: #ddd;
+}
+
+.trips-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
 .catalogue>div {
     display: flex;
     flex-direction: column;
